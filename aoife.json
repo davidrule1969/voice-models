@@ -2,7 +2,7 @@
   "type": "micro",
   "wake_word": "Eefa",
   "author": "Home Assistant User",
-  "model": "/config/eefa.tflite",
+  "model": "https://github.com/davidrule1969/voice-models/raw/refs/heads/main/aoife.tflite",
   "trained_languages": ["en"],
   "version": 2,
   "micro": {
