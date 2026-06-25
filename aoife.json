@@ -1,14 +1,16 @@
 {
   "type": "micro",
   "wake_word": "Aoife",
-  "author": "David",
-  "version": 2,
-  "model": "https://raw.githubusercontent.com/davidrule1969/voice-models/main/aoife.tflite?v=3",
+  "author": "David Rule",
+  "website": "https://github.com/davidrule1969/voice-models",
+  "model": "https://raw.githubusercontent.com/davidrule1969/voice-models/main/aoife.tflite?v=4",
   "trained_languages": ["en"],
+  "version": 2,
   "micro": {
     "probability_cutoff": 0.75,
-    "feature_step_size": 10,
     "sliding_window_size": 5,
-    "tensor_arena_size": 35000
+    "feature_step_size": 10,
+    "tensor_arena_size": 35000,
+    "minimum_esphome_version": "2024.7.0"
   }
 }
