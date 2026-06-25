@@ -4,7 +4,7 @@
   "author": "Home Assistant User",
   "model": "https://raw.githubusercontent.com/davidrule1969/voice-models/main/aoife.tflite?v=3",
   "trained_languages": ["en"],
-  "version": 3,
+  "version": 2,
   "micro": {
     "probability_cutoff": 0.75,
     "feature_step_size": 10,
