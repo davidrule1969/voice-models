@@ -1,16 +1,16 @@
 {
+  "manifest_version": 1,
   "type": "micro",
   "wake_word": "Aoife",
   "author": "David Rule",
-  "website": "https://github.com/davidrule1969/voice-models",
+  "version": 2,
+  "model_type": "mww_inception",
   "model": "https://raw.githubusercontent.com/davidrule1969/voice-models/main/aoife.tflite?v=4",
   "trained_languages": ["en"],
-  "version": 2,
   "micro": {
     "probability_cutoff": 0.75,
-    "sliding_window_size": 5,
     "feature_step_size": 10,
-    "tensor_arena_size": 35000,
-    "minimum_esphome_version": "2024.7.0"
+    "sliding_window_size": 5,
+    "tensor_arena_size": 35000
   }
 }
